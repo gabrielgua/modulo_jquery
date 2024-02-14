@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    gap: 1rem;
+    background-color: #5F27CD;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    border-block-end: 1rem solid #341F97;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+form {
+    background-color: #C8D6E7;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+form h2 {
+    margin-block-end: 1rem;
+}
+
+input,
+button {
+    padding: .5rem;
+}
+
+button {
+    background-color: #009432;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+#btn-cancel {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
