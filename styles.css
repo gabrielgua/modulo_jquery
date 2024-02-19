@@ -18,6 +18,7 @@ header {
 }
 
 form {
+    display: none;
     background-color: #C8D6E7;
     padding: 1.5rem;
     text-align: center;
@@ -44,6 +45,63 @@ button {
 #btn-cancel {
     background-color: red;
 }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    max-width: 25%;
+    max-height: 280px;
+    overflow-y: hidden;
+}
+
+
+ul li img {
+    width: 100%;
+    display: block;
+}
+
+.overlay-imagem-link {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 250ms ease;
+}
+
+.overlay-imagem-link a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li:hover .overlay-imagem-link {
+    opacity: 1;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
